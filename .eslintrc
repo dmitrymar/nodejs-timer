@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "settings": {
+    },
+    "plugins": [],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parser": "esprima",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "App": "writable",
+        "$": "readonly",
+        "google": "readonly",
+        "paypal": "readonly",
+        "affirm": "readonly",
+        "Stripe": "readonly",
+        "Waypoint": "readonly",
+        "cy": "readonly",
+        "Cypress": "readonly",
+        "Swiper": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "object-shorthand": ["error", "always"],
+        "space-before-function-paren": 0,
+        "linebreak-style": ["error", "unix"],
+        "semi": ["error", "always"]
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "Javascript Playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --no-config --write '**/*.js'",
+    "format:check": "prettier --no-config --check '**/*.js'",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitry-ts/js-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitry-ts/js-playground/issues"
+  },
+  "homepage": "https://github.com/dmitry-ts/js-playground#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "2.0.5"
+  }
+}
