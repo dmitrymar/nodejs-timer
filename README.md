@@ -1,19 +1,22 @@
-# js-playground
+# Timer
 
-Javascript Playground
+Timer app implemented for node
 
-## Debugging
-### ESLint
+## Usage
+
+Input segment of time in minutes
 
 ```
-pm run lint
+node timer.js 15
 ```
 
-### VSCode Debugging
+## To Do
 
-[Using this tutorial](https://www.google.com/search?ei=L3ysXuDfF9iwytMPhN6v0Ao&q=node+debug+js+file+in+vscode&oq=node+debug+js+file+in+vscode&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0CMgUIABDNAjIFCAAQzQIyBQgAEM0COgQIABBHOgQIABANOggIABAIEAcQHjoICAAQDRAFEB5Q4ixY_zxg4khoAHADeASAAbgLiAGKM5IBDTAuMS4xLjUtMS4yLjOYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwigs6jPtpPpAhVYmHIEHQTvC6oQ4dUDCAw&uact=5#kpvalbx=_OnysXuLBF_asytMPtNq94Ag36)
+Print time when the timer will stop (i. e. 12:24)
+Print how many minutes and seconds have passed (i. e. 3:21)
+Write tests
 
-[Or this doc](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
+## Phase 2 
 
-### Notes
-Try setting up this repo https://github.com/gtsopour/nodejs-shopping-cart to go along with above tutorial
+Use the [wizard](https://www.npmjs.com/package/wizard) to ask time
+
